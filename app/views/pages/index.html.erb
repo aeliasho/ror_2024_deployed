@@ -1,0 +1,7 @@
+<h1>Los personajes de Harry</h1>
+
+<% @pages.each do |p| %> 
+  <h2><%= p.name %></h2>
+  <p><%= p.location %></p>
+  <p><%= p.house %></p>
+<% end %>
